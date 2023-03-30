@@ -1,0 +1,398 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* 
+COLORS:
+	White:  #F5F6FA
+	Blue:   #314FA9
+	Purple: #A528C0
+	Red:    #A32147
+	Black:  #0D0D0D
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.hnav {
+	background-image: url("../images/darkSpace.jpeg");
+	position: fixed;
+	width: 100%;
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 2.5%;
+}
+
+.hnav a {
+	text-decoration: none;
+	transition: 0.3s all;
+	font-size: 2em;
+	font-family: "Chakra Petch", monospace;
+	font-weight: bold;
+	color: #F5F6FA;
+}
+
+.n1:hover {
+	color: #FE6A6A;
+	font-size: 2.1em;
+}
+.n2:hover {
+	color: #FCB96B;
+	font-size: 2.1em;
+}
+.n3:hover {
+	color: #F9FF91;
+	font-size: 2.1em;
+}
+.n4:hover {
+	color: #CCFCA6;
+	font-size: 2.1em;
+}
+.n5:hover {
+	color: #B0CFFE;
+	font-size: 2.1em;
+}
+.n6:hover {
+	color: #BA97FF;
+	font-size: 2.1em;
+}
+
+.n1:active {
+	color: #FF0000;
+	transition: all 0s;
+}
+.n2:active {
+	color: #FF9900;
+	transition: all 0s;
+}
+.n3:active {
+	color: #FFFF00;
+	transition: all 0s;
+}
+.n4:active {
+	color: #00FF00;
+	transition: all 0s;
+}
+.n5:active {
+	color: #0000FF;
+	transition: all 0s;
+}
+.n6:active {
+	color: #9900FF;
+	transition: all 0s;
+}
+
+.titling {
+	text-align: center;
+	font-family: "Chakra Petch", monospace;
+	font-weight: bold;
+	color: #0d0d0d;
+	font-size: 5em;
+}
+
+.subtitling {
+	text-align: center;
+	font-family: "Chakra Petch", monospace;
+	font-weight: bold;
+	color: #0d0d0d;
+	font-size: 3em;
+}
+
+
+#s1::after {
+	content: "|";
+	animation: changeLetter1 2s linear 1 forwards 1s;
+}
+
+@keyframes changeLetter1 {
+	0% {content: "|"}
+	3.5% {content: "W|"}
+	7% {content: "We|"}
+	10.5% {content: "Web|"}
+	14% {content: "Webb|"}
+	17.5% {content: "Webb'|"}
+	21% {content: "Webb's|"}
+	22.7% {content: "Webb's |"}
+	24.5% {content: "Webb's S|"}
+	28% {content: "Webb's Sc|"}
+	31.5% {content: "Webb's Sci|"}
+	35% {content: "Webb's Scie|"}
+	38.5% {content: "Webb's Scien|"}
+	42% {content: "Webb's Scienc|"}
+	46.5% {content: "Webb's Science|"}
+	48.7% {content: "Webb's Science |"}
+	50% {content: "Webb's Science M|"}
+	53.5% {content: "Webb's Science Mi|"}
+	57% {content: "Webb's Science Mis|"}
+	60.5% {content: "Webb's Science Miss|"}
+	64.5% {content: "Webb's Science Missi|"}
+	68% {content: "Webb's Science Missio|"}
+	71.5% {content: "Webb's Science Mission|"}
+	73.7% {content: "Webb's Science Mission |"}
+	75% {content: "Webb's Science Mission B|"}
+	78.5% {content: "Webb's Science Mission Be|"}
+	82% {content: "Webb's Science Mission Beg|"}
+	85.5% {content: "Webb's Science Mission Begi|"}
+	89% {content: "Webb's Science Mission Begin|"}
+	92.5% {content: "Webb's Science Mission Begins|"}
+	100% {content: "Webb's Science Mission Begins|"}
+}
+
+#s2::after {
+	content: "|";
+	animation: changeLetter2 0.5s linear 1 forwards 1s;
+}
+
+@keyframes changeLetter2 {
+	0% {content: "|"}
+	25% {content: "N|"}
+	37.5% {content: "Ne|"}
+	50% {content: "Nep|"}
+	62.5% {content: "Nept|"}
+	75% {content: "Neptu|"}
+	87.5% {content: "Neptun|"}
+	100% {content: "Neptune|"}
+}
+
+#s3::after {
+	content: "|";
+	animation: changeLetter3 1.5s linear 1 forwards 1s;
+}
+
+@keyframes changeLetter3 {
+	0% {content: "|"}
+	5% {content: "T|"}
+	10% {content: "Th|"}
+	15% {content: "The|"}
+	20% {content: "The |"}
+	25% {content: "The T|"}
+	30% {content: "The Ta|"}
+	35% {content: "The Tar|"}
+	40% {content: "The Tara|"}
+	45% {content: "The Taran|"}
+	50% {content: "The Tarant|"}
+	55% {content: "The Tarantu|"}
+	60% {content: "The Tarantul|"}
+	65% {content: "The Tarantula|"}
+	70% {content: "The Tarantula |"}
+	75% {content: "The Tarantula N|"}
+	80% {content: "The Tarantula Ne|"}
+	85% {content: "The Tarantula Neb|"}
+	90% {content: "The Tarantula Nebu|"}
+	95% {content: "The Tarantula Nebul|"}
+	100% {content: "The Tarantula Nebula|"}
+}
+
+#s4::after {
+	content: "|";
+	animation: changeLetter4 1.5s linear 1 forwards 1s;
+}
+
+@keyframes changeLetter4 {
+	0% {content: "|"}
+	5% {content: "T|"}
+	10% {content: "Th|"}
+	15% {content: "The|"}
+	20% {content: "The |"}
+	25% {content: "The C|"}
+	30% {content: "The Ca|"}
+	35% {content: "The Car|"}
+	40% {content: "The Cart|"}
+	45% {content: "The Cartw|"}
+	50% {content: "The Cartwh|"}
+	55% {content: "The Cartwhe|"}
+	60% {content: "The Cartwhee|"}
+	65% {content: "The Cartwheel|"}
+	70% {content: "The Cartwheel |"}
+	75% {content: "The Cartwheel G|"}
+	80% {content: "The Cartwheel Ga|"}
+	85% {content: "The Cartwheel Gal|"}
+	90% {content: "The Cartwheel Gala|"}
+	95% {content: "The Cartwheel Galax|"}
+	100% {content: "The Cartwheel Galaxy|"}
+}
+
+#s5::after {
+	content: "|";
+	animation: changeLetter5 1.2s linear 1 forwards 1s;
+}
+
+@keyframes changeLetter5 {
+	0% {content: "|"}
+	6% {content: "T|"}
+	12% {content: "Th|"}
+	18% {content: "The|"}
+	24% {content: "The |"}
+	30% {content: "The C|"}
+	36% {content: "The Co|"}
+	42% {content: "The Cos|"}
+	48% {content: "The Cosm|"}
+	54% {content: "The Cosmi|"}
+	60% {content: "The Cosmic|"}
+	66% {content: "The Cosmic |"}
+	72% {content: "The Cosmic C|"}
+	78% {content: "The Cosmic Cl|"}
+	84% {content: "The Cosmic Cli|"}
+	90% {content: "The Cosmic Clif|"}
+	96% {content: "The Cosmic Cliff|"}
+	100% {content: "The Cosmic Cliffs|"}
+}
+
+#s6::after {
+	content: "|";
+	animation: changeLetter6 0.8s linear 1 forwards 1s;
+}
+
+@keyframes changeLetter6 {
+	0% {content: "|"}
+	10% {content: "N|"}
+	20% {content: "Ne|"}
+	30% {content: "New|"}
+	40% {content: "News|"}
+	50% {content: "Newsl|"}
+	60% {content: "Newsle|"}
+	70% {content: "Newslet|"}
+	80% {content: "Newslett|"}
+	90% {content: "Newslette|"}
+	100% {content: "Newsletter|"}
+}
+
+#s0::after {
+	content: "|";
+	animation: changeLetter0 2s linear 1 forwards 1s;
+}
+
+@keyframes changeLetter0 {
+	0% {content: "|"}
+	33.3% {content: "fehwui|"}
+	66.6% {content: "fehwuihgeru|"}
+	100% {content: "fehwuihgeruhuefwi9egh|"}
+}
+
+.button {
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #0D0D0D;
+	font-weight: bold;
+	font-family: "Chakra Petch", monospace;
+	font-size:.8em;
+	color: #F5F6FA;
+	transition: 0.2s all;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+#submit:hover {
+	color: #baddba;
+	background-color: #155615;
+	transform: translate(-3px, -3px);
+	box-shadow: 3px 3px 3px 0 #00330099;
+}
+
+#reset:hover {
+	color: #ff9898;
+	background-color: #601111;
+	transform: translate(-3px, -3px);
+	box-shadow: 3px 3px 3px 0 #33000099;
+}
+
+main {
+	font-family: "Chakra Petch", monospace;
+	font-size: 1.5em;
+	width: 80%;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #F5F6FA;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+main a {
+	color: #0D0D0D;
+	text-decoration: none;
+	transition: all .3s;
+}
+main a:hover {
+	color: #314FA9;
+}
+
+blockquote {
+	
+}
+
+table {
+	
+}
+
+.center {
+	text-align: center;
+}
+
+img {
+	max-width: 80%;
+}
+
+footer {
+	text-align: center;
+	background-color: #ffffff;
+}
+
+footer a {
+	color: #314fa9;
+	text-decoration: none;
+}
+
+.fnav {
+	background-image: url("../images/darkSpace.jpeg");
+}
+
+.fnav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 2.5%;
+}
+
+.fnav a {
+	text-decoration: none;
+	transition: 0.3s all;
+	font-size: 2em;
+	font-family: "Chakra Petch", monospace;
+	font-weight: bold;
+	color: #F5F6FA;
+}
