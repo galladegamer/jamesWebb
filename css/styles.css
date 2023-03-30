@@ -297,7 +297,8 @@ COLORS:
 .button {
 	padding: 5px 10px;
 	border-radius: 10px;
-	background-color: #0D0D0D;
+	background-image: url("../images/darkSpace.jpeg");
+	background-size: 100%;
 	font-weight: bold;
 	font-family: "Chakra Petch", monospace;
 	font-size:.8em;
@@ -311,14 +312,14 @@ COLORS:
 
 #submit:hover {
 	color: #baddba;
-	background-color: #155615;
+	background-image: url("../images/greenSpace.png");
 	transform: translate(-3px, -3px);
 	box-shadow: 3px 3px 3px 0 #00330099;
 }
 
 #reset:hover {
 	color: #ff9898;
-	background-color: #601111;
+	background-image: url("../images/redSpace.png");
 	transform: translate(-3px, -3px);
 	box-shadow: 3px 3px 3px 0 #33000099;
 }
