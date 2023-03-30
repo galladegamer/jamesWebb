@@ -57,9 +57,21 @@ COLORS:
 	color: #F9FF91;
 	font-size: 2.1em;
 }
+.n3:hover::after {
+	content: "\aNEBULA";
+	white-space: pre;
+}
 .n4:hover {
 	color: #CCFCA6;
 	font-size: 2.1em;
+}
+.n4:hover::after {
+	content: "\aGALAXY";
+	white-space: pre;
+}
+.n5:hover::before {
+	content: "COSMIC\a";
+	white-space: pre;
 }
 .n5:hover {
 	color: #B0CFFE;
