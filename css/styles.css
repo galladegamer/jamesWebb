@@ -289,8 +289,29 @@ COLORS:
 
 @keyframes changeLetter0 {
 	0% {content: "|"}
+	31.7% {content: "|"}
+	31.8% {content: "f|"}
+	32.1% {content: "fe|"}
+	32.4% {content: "feh|"}
+	32.7% {content: "fehw|"}
+	33.0% {content: "fehwu|"}
 	33.3% {content: "fehwui|"}
+	65.3% {content: "fehwui|"}
+	65.4% {content: "fehwuih|"}
+	65.7% {content: "fehwuihg|"}
+	66.0% {content: "fehwuihge|"}
+	66.3% {content: "fehwuihger|"}
 	66.6% {content: "fehwuihgeru|"}
+	97.2% {content: "fehwuihgeru|"}
+	97.3% {content: "fehwuihgeruh|"}
+	97.6% {content: "fehwuihgeruhu|"}
+	97.9% {content: "fehwuihgeruhue|"}
+	98.2% {content: "fehwuihgeruhuef|"}
+	98.5% {content: "fehwuihgeruhuefw|"}
+	98.8% {content: "fehwuihgeruhuefwi|"}
+	99.1% {content: "fehwuihgeruhuefwi9|"}
+	99.4% {content: "fehwuihgeruhuefwi9e|"}
+	99.7% {content: "fehwuihgeruhuefwi9eg|"}
 	100% {content: "fehwuihgeruhuefwi9egh|"}
 }
 
